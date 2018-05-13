@@ -105,12 +105,16 @@ h2 {
 .imgLiquidFill{
   background: url(../Patagonia/7.JPG);
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .descriptionmain{
   font-family: Indie Flower, Georgia;
   font-size:20px;
+}
+@media only screen and (max-width: 701px) {
+  .imgLiquidFill{
+    background-size: auto;
+  }
 }
 
 @media only screen and (min-width: 701px) {
@@ -120,7 +124,13 @@ h2 {
   .menu{
     display: none;
   }
+  .imgLiquidFill{
+    background-size: cover;
+  }
 }
+
+
+
 /* footer */
 
 .footer {

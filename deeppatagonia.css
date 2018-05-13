@@ -1,0 +1,48 @@
+
+/*Tasks to do
+
+1. Menu bar
+2. Gallery list
+3. Gallery page
+4. About page.. comments.. social media integration.. deployment
+5. Front end resume site
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+html {
+  font-family: "Sacramento", cursive;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+
+  background: url(../Patagonia/lowres4.JPG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+  border: 0;
+}
+.textinvite {
+  font-size: 40px;
+  color: gold;
+  position: absolute;
+  left: 40%;
+  top: 18%;
+  text-align:center;
+}
+
+
